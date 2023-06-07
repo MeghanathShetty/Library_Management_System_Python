@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1518</width>
+    <height>960</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1518</width>
+    <height>960</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1518</width>
+    <height>960</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-1</x>
+      <y>-1</y>
+      <width>1521</width>
+      <height>961</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <widget class="QLabel" name="label_2">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>10</y>
+       <width>1501</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>MS Shell Dlg 2</family>
+       <pointsize>25</pointsize>
+       <weight>50</weight>
+       <italic>false</italic>
+       <bold>false</bold>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgb(248, 249, 250);
+border:none;
+border-radius:20px;</string>
+     </property>
+     <property name="text">
+      <string>Library Management System</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+    <widget class="QStackedWidget" name="stackedWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>80</y>
+       <width>1501</width>
+       <height>351</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="currentIndex">
+      <number>0</number>
+     </property>
+     <widget class="QWidget" name="mmainp">
+      <widget class="QWidget" name="widget_4" native="true">
+       <property name="geometry">
+        <rect>
+         <x>500</x>
+         <y>0</y>
+         <width>261</width>
+         <height>351</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>454555</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgb(248, 249, 250);
+border:none;
+border-radius:20px;</string>
+       </property>
+       <widget class="QToolButton" name="mdispallbook">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>241</width>
+          <height>331</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="widget_5" native="true">
+       <property name="geometry">
+        <rect>
+         <x>770</x>
+         <y>0</y>
+         <width>261</width>
+         <height>351</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>0</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>454555</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color:rgb(248, 249, 250);
+border:none;
+border-radius:20px;</string>
+       </property>
+       <widget class="QToolButton" name="msearchbook">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>241</width>
+          <height>331</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <pointsize>15</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true"/>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </widget>
+     </widget>
+     <widget class="QWidget" name="searchp">
+      <widget class="QComboBox" name="searchbktxtcombo">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>50</y>
+         <width>711</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-top-left-radius:7px;
+border-bottom-left-radius:7px;
+background-color: rgb(255, 255, 255);
+border:2px solid #F79489;
+
+</string>
+       </property>
+       <property name="maxVisibleItems">
+        <number>20</number>
+       </property>
+       <item>
+        <property name="text">
+         <string>Arts</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Commerce</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Mathematics</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Biology</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Physics</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Zoology</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Chemistry</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Computer Science</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Hindi</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>English</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Kannada</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Sanskrit</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QToolButton" name="searchbkbtn">
+       <property name="geometry">
+        <rect>
+         <x>680</x>
+         <y>200</y>
+         <width>151</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>15</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton#searchbkbtn{
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+border-radius:20px;
+}
+QToolButton#searchbkbtn:hover{
+color: rgb(85, 255, 0);
+}
+QToolButton#searchbkbtn:pressed{
+background-color: rgb(85, 255, 0);
+color:rgb(0,0,0)
+}</string>
+       </property>
+       <property name="text">
+        <string>Search</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="searchbkemp">
+       <property name="geometry">
+        <rect>
+         <x>640</x>
+         <y>120</y>
+         <width>251</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(232, 0, 0);</string>
+       </property>
+       <property name="inputMethodHints">
+        <set>Qt::ImhNone</set>
+       </property>
+       <property name="text">
+        <string>Detail cannot be empty</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="searchbktxt">
+       <property name="geometry">
+        <rect>
+         <x>330</x>
+         <y>50</y>
+         <width>711</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border-top-left-radius:7px;
+border-bottom-left-radius:7px;
+background-color: rgb(255, 255, 255);
+border:2px solid #F79489;
+padding-left:10px;
+</string>
+       </property>
+       <property name="placeholderText">
+        <string>Enter Book to be searched</string>
+       </property>
+      </widget>
+      <widget class="QComboBox" name="searchbkcombo">
+       <property name="geometry">
+        <rect>
+         <x>1040</x>
+         <y>50</y>
+         <width>181</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>16</pointsize>
+        </font>
+       </property>
+       <property name="layoutDirection">
+        <enum>Qt::LeftToRight</enum>
+       </property>
+       <property name="autoFillBackground">
+        <bool>false</bool>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);
+border:2px solid #F79489;
+
+</string>
+       </property>
+       <property name="maxVisibleItems">
+        <number>20</number>
+       </property>
+       <item>
+        <property name="text">
+         <string>Book ID</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Book Name</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Author</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Department</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QToolButton" name="searchbbcbtn">
+       <property name="geometry">
+        <rect>
+         <x>680</x>
+         <y>280</y>
+         <width>151</width>
+         <height>51</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>18</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QToolButton#searchbbcbtn{
+background-color: #F79489;
+border-radius:20px;
+}
+
+
+QToolButton#searchbbcbtn:pressed{
+
+background-color: rgb(218, 218, 218);
+}
+
+</string>
+       </property>
+       <property name="text">
+        <string>Back</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_48">
+       <property name="geometry">
+        <rect>
+         <x>1280</x>
+         <y>300</y>
+         <width>101</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>18</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>Quantity:</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="qtylb">
+       <property name="geometry">
+        <rect>
+         <x>1390</x>
+         <y>300</y>
+         <width>61</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <pointsize>18</pointsize>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="text">
+        <string>0</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QTableWidget" name="tableWidget">
+     <property name="geometry">
+      <rect>
+       <x>10</x>
+       <y>440</y>
+       <width>1501</width>
+       <height>511</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>12</pointsize>
+      </font>
+     </property>
+     <property name="layoutDirection">
+      <enum>Qt::LeftToRight</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgb(248, 249, 250);
+border:none;
+border-radius:20px;</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <property name="wordWrap">
+      <bool>true</bool>
+     </property>
+     <property name="cornerButtonEnabled">
+      <bool>true</bool>
+     </property>
+     <property name="rowCount">
+      <number>0</number>
+     </property>
+     <property name="columnCount">
+      <number>0</number>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
