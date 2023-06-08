@@ -1,5 +1,1 @@
-"# BCA_project" 
-"# BCA_project" 
-"# BCA_project" 
-"# BCA_project" 
-"# BCA_project" 
+You will need to run the memmain.py for the student-side software and main.py for the admin-side software,First you will need to run the main.py for the software to create the database automatically,(You will need to turn on mysql first through wamp or xamp).
