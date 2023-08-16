@@ -1,3 +1,6 @@
+# LIBRARY MANAGEMENT SYSTEM
+
+## ------- User Guide -------
 Step1: You will need to turn on mysql first through wamp or xamp.
 
 Step2:First you need to run the main.py as it is the admin-side software this will automatically create a new database(if already doesn't exist),then run the memmain.py for the student-side software.
