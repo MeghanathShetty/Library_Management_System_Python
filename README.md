@@ -36,7 +36,7 @@ Step2(Alternative):Navigate to the "pr exe" folder and run the main.exe first as
 ![image](https://github.com/MeghanathShetty/Library_Management_System_BCA/assets/127648939/49561e78-e00f-468f-aed8-82d5850a6dc5)
 ### Search/Renew/Return Issued Books
 ![image](https://github.com/MeghanathShetty/Library_Management_System_BCA/assets/127648939/2fe8b494-0f80-4b5c-a593-c21ad22ee9ee)
-### View Books Issued Staff/Student
+### View Books Issued to Staff/Student
 ![image](https://github.com/MeghanathShetty/Library_Management_System_BCA/assets/127648939/eadf47bf-b782-4bac-aa09-67b85081b129)
 ### View all Students/Staff
 ![image](https://github.com/MeghanathShetty/Library_Management_System_BCA/assets/127648939/e8dd95b7-d7ac-4e9b-be92-25e932a3bf97)
