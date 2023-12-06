@@ -7,8 +7,14 @@ Step2:First you need to run the main.py as it is the admin-side software this wi
                                                                           Or,
                                                                           
 Step2(Alternative):Navigate to the "pr exe" folder and run the main.exe first as it is the admin-side software this will automatically create a new database(if already doesn't exist),then run the memmain.exe for the student-side software.
+
 ## ------- Software Info -------
 1. Has penalty system(Fine 1 rupees per day) if late for return or renewal
+
+## ------- Admin Login Details -------
+1. Username = "admin"
+2. password = 1234
+
 ## ------- Front-End -------
 1. PyQt5 (Python Library)
 
